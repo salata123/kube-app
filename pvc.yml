@@ -5,7 +5,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: manual
+  storageClassName: kops-csi-1-21
   resources:
     requests:
       storage: 6Gi
